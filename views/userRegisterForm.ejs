@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <% include('partials/head') ;%>
+<body>
+    <% include ('partials/navbar'); %>
+
+    <!-- Register Form -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2>Formulario de registro</h2>
+
+                <form method="POST" action="/user/register">
+                    <div class="row">
+                        <div class="col-md-6 my-1">
+                            <div class="form-group">
+                                <labbel><b>Nombre completo:</b></labbel>
+                                <input type="text" name="fullname" class="form-control">
+                                <div class="Invalid-feedback">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-1">
+                            <div class="form-group">
+                                <labbel><b>Correo electronico:</b></labbel>
+
+</body>
+</html>
